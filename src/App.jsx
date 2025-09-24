@@ -35,8 +35,8 @@ function App() {
             <input
               type="text"
               placeholder="Enter your name"
-              className="w-full h-[55px] border rounded-[10px] p-3 mt-1 outline-0"
-            />
+              className="w-full h-[55px] border rounded-[10px] p-3 mt-1 outline-0 placeholder-black text-black"
+            required/>
             <br />
             <br />
 
@@ -45,8 +45,8 @@ function App() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full h-[55px] border rounded-[10px] p-3 mt-1 outline-0"
-            />
+              className="w-full h-[55px] border rounded-[10px] p-3 mt-1 outline-0 placeholder-black text-black"
+            required/>
             <br />
             <br />
 
@@ -56,8 +56,8 @@ function App() {
               <input
                 type={showPassword ? "text" : "password"}
                 placeholder="Enter password"
-                className="w-full h-[55px] border rounded-[10px] p-3 mt-1 outline-0 pr-10"
-              />
+                className="w-full h-[55px] border rounded-[10px] p-3 mt-1 outline-0 pr-10 placeholder-black text-black"
+              required/>
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
